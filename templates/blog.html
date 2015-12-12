@@ -16,6 +16,9 @@
 
     <!-- Custom CSS -->
     <link href="static/css/freelancer.css" rel="stylesheet">
+	
+	<!-- Custom CSS -->
+    <link href="static/css/masonry-docs.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -85,8 +88,27 @@
         </div>
     </header>
 
+	<br><br>
+	
     <!-- Main Content -->
     <div class="container">
+	
+	<div id="sidebar">
+		{% if loggedIn == False %}
+			<a href="/login" class="btn btn-default btn-xl">
+				Come and Contribute!
+			</a>
+		{% endif %}
+		{% if loggedIn == True %}
+			<a href="/createpost" class="btn btn-default btn-xl">
+				Create
+			</a>
+			<a href="/logout" class="btn btn-default btn-xl">
+				Log out
+			</a>
+		{% endif %}
+	</div>
+	
 {% if blogs %}
 			{% set c = 0 %}
 			{% for i in blogs %}
@@ -166,6 +188,19 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="static/js/clean-blog.min.js"></script>
+	
+	  <!--Masonry-->
+  <script src="static/js/masonry.pkgd.min.js"></script>
+  <script src="static/js/masonry-docs.min"></script>
+  <script>
+	// Javascript
+  var container = document.querySelector('#masonry-grid');
+  var msnry = new Masonry( container, {
+   // options
+	columnWidth: 200,
+	itemSelector: '.item'
+  });
+  </script>
 
 </body>
 
