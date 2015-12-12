@@ -76,7 +76,22 @@ def createpost():
         return render_template("createpost.html", username = session["username"])
     else:
         return redirect(url_for("login"))			
-			
+		
+@app.route("/myposts", methods = ["GET", "POST"])
+def myposts():
+    if session.has_key("loggedIn") and session["loggedIn"]:
+        userPosts = db_methods.getUserPosts(session["username"])
+        if request.form.has_key("post") and request.form["post"] != "":
+            db_methods.addPost(request.form["title"], request.form["post"], session["username"])
+        elif request.form.has_key("BlogID"):
+            return render_template("myposts.html", username = session["username"], userPosts = userPosts, editing = request.form["BlogID"])
+        elif request.form.has_key("edit"):
+            db_methods.editUserPost(request.form["edit"], request.form["editedID"], session["username"])
+        userPosts = db_methods.getUserPosts(session["username"])
+        return render_template("myposts.html", username = session["username"], userPosts = userPosts)
+    else:
+        return redirect(url_for("login"))
+		
 @app.route("/search",methods=["GET","POST"])
 def search():
     if request.method=="POST":
