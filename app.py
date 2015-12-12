@@ -1,7 +1,5 @@
 from flask import Flask, render_template, session, redirect,url_for, request
 
-import twitter, nyt
-
 app = Flask(__name__)
 
 @app.route("/")
