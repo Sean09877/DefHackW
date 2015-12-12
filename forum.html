@@ -1,14 +1,15 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
- 
-	
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Contact</title>
+    <title>Clean Blog</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,27 +29,11 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-	
-	<script src="jquery.js"></script>
-	<script src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	
-	
-	<style>      * { margin: 0; padding: 0; }
-      body { font: 13px Helvetica, Arial; }
-      form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
-      form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
-      form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
-      #messages { list-style-type: none; margin: 0; padding: 0; }
-	li { padding: 5px 10px; list-style-type: none; }
-      #content li:nth-child(odd) { background: #eee; }
-    </style>
-	
 </head>
 
-<body
+<body>
 
-   <!-- Navigation -->
+    <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -59,7 +44,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Rogue Mercenaries</a>
+                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,13 +54,13 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="Games.html">Game</a>
+                        <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="forum.html">Chat</a>
+                        <a href="post.html">Sample Post</a>
                     </li>
                     <li>
-                        <a href="Lore.html">Lore</a>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -84,64 +69,129 @@
         <!-- /.container -->
     </nav>
 
-	<!-- Page Header -->
+    <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('http://nationalfireescapeassociation.org/wp-content/uploads/2013/01/suppression.jpg')">
-	<!--INSERT PHOTO-->
+    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>Rogue Mercenaries</h1>
+                        <h1>Clean Blog</h1>
                         <hr class="small">
-                        <span class="subheading"></span>
+                        <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-	
-<div class="container">	
-<form>
 
-<p> Username: <input type="text" id='username' placeholder='Person123'> </p>
-<p> Your Message: <input type="text" id='your_message' placeholder=''> </p>
- <p> <input id='submit' type="submit" value= "Submit Your Message"> </p>
-</form>
-<ui id="content"></ui>
-<script>
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            Man must explore, and this is exploration at its greatest
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Problems look mighty small from 150 miles up
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+                        </h2>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            Science has not yet mastered prophecy
+                        </h2>
+                        <h3 class="post-subtitle">
+                            We predict too much for the next year and yet far too little for the next ten.
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            Failure is not an option
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2014</p>
+                </div>
+                <hr>
+                <!-- Pager -->
+                <ul class="pager">
+                    <li class="next">
+                        <a href="#">Older Posts &rarr;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
+    <hr>
 
-var forum=new Firebase ("https://donald-trump.firebaseio.com/"); 
-document.getElementById("submit").onclick=function(){
-	var username=$("#username").val();
-	var message=$("#your_message").val();
-	console.log('LOL');
-	forum.push({name:username,message:message});
-	$("#your_message").val("");
-	return false;
-};
-var messages=[]
-forum.on("child_added", function (snapshot) {
-	var value=snapshot.val()
-	var count=20
-	messages.push(value)
-	$("#content").html("")
-	var start=0
-	if(messages.length > count){
-		start=messages.length-count
-	}
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-	for(var i=start;i <messages.length;i++){
-			$("#content").prepend("<li><strong>"+messages[i].name+"</strong>: "+messages[i].message+"</li>")
-		}w
-	//$("#content").prepend("<p>"+value.name+": "+value.message+"</p>")
-})
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
+    <!-- Custom Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
 
-
-</script>
-</div>
+</body>
 
 </html>
