@@ -1,5 +1,7 @@
 from flask import Flask, render_template, session, redirect,url_for, request
 
+import twitter, nyt
+
 app = Flask(__name__)
 
 @app.route("/")
@@ -28,7 +30,7 @@ def search():
         articles = g.read()
         g.close()
         articles = articles.decode('utf-8')
-        return render_template("index.html",twitter=tweets,nyt=articles)
+        return render_template("search.html",twitter=tweets,nyt=articles)
 
     return render_template("search.html",twitter='No Search Has Been Done',nyt='No Search Has Been Done')                 
 
