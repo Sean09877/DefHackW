@@ -25,7 +25,7 @@
 - New York Times (through NYT API)
 
 <h2>Features</h2>
-<h3>Landing Page<h3>
+<h3>Landing Page</h3>
 <p>This is the face of Callidate. The landing page is meant to give the quick facts about the political race. There is a portfolio of the presidential candidates, where you can click on their image and see basic information about their policies/beliefs and how they're doing in debates. Below this is a timeline of upcoming debates, who will be moderating them, and where they will air.</p>
 <h3>User Forum</h3>
 <p>This is a live chat where users can discuss their opinions on the debate, how they feel about controversial policies, and share their general thoughts about the presidential race.</p>
