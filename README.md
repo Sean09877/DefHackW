@@ -32,3 +32,13 @@
 <h3>Blog</h3>
 <p>Here is where users can write longer posts to share their thoughts. All users can look at all blog posts, but, in order to create a post, you must create an acocunt and sign in. Users with accounts can then either create posts or edit their previous posts.</p>
 <h3>Search</h3>
+<p>Just in case the landing page didn't provide enough information, we have a search bar. Here users can query information from the New York Times and Twitter, and see the results side-by-side to compare public and editorial content about the presidential race.</p>
+
+<h2>In the Future</h2>
+- Have landing page automatically update the candidates instead of having to hard-code them
+- Show most-talked-about candidates
+- Show information about political races other than the presidential race
+- Allow for threaded conservations in the forum
+- Allow for tagging/filtering posts in the blog
+- Allow for more editorial content by creating official writer accounts for professional political commentators
+- Add more sites to query information from in the search bar
