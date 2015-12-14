@@ -2,37 +2,47 @@
 <p>'callow' + 'candidate' = Callidate</p>
 <p>A web-based political platform for the youth of America</p>
 
+<br>
+
 <h2>Problem</h2>
 <p>The presidential election is coming up soon, and America is in the thick of a political storm of opinions and debates. The youth of America will be voting soon, and most of them are not well-informed enough to make a useful decision about who will be the next leader of the free world.</p>
+
+<br>
 
 <h2>Solution</h2>
 <p>Callidate, a Flask-based web application with a slew of features that both inform the users and allow the users to share their opinions</p>
 
+<br>
+
 <h2>What we used</h2>
-<h3>The site itself:</h3>
+<strong>The site itself:</strong>
 - Flask
 - HTML
 - CSS
-<h3>The user forum:</h3>
+<strong>The user forum:</strong>
 - Firebase database
 - JavaScript
-<h3>The blog:</h3>
+<strong>The blog:</strong>
 - SQLite
 - Python
 - Jinja
-<h3>The search bar:</h3>
+<strong>The search bar:</strong>
 - Twitter (through tweepy API)
 - New York Times (through NYT API)
 
+<br>
+
 <h2>Features</h2>
-<h3>Landing Page</h3>
+<strong>Landing Page</strong>
 <p>This is the face of Callidate. The landing page is meant to give the quick facts about the political race. There is a portfolio of the presidential candidates, where you can click on their image and see basic information about their policies/beliefs and how they're doing in debates. Below this is a timeline of upcoming debates, who will be moderating them, and where they will air.</p>
-<h3>User Forum</h3>
+<strong>User Forum</strong>
 <p>This is a live chat where users can discuss their opinions on the debate, how they feel about controversial policies, and share their general thoughts about the presidential race.</p>
-<h3>Blog</h3>
+<strong>Blog</strong>
 <p>Here is where users can write longer posts to share their thoughts. All users can look at all blog posts, but, in order to create a post, you must create an acocunt and sign in. Users with accounts can then either create posts or edit their previous posts.</p>
-<h3>Search</h3>
+<strong>Search</strong>
 <p>Just in case the landing page didn't provide enough information, we have a search bar. Here users can query information from the New York Times and Twitter, and see the results side-by-side to compare public and editorial content about the presidential race.</p>
+
+<br>
 
 <h2>In the Future</h2>
 - Have landing page automatically update the candidates instead of having to hard-code them
