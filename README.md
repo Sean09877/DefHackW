@@ -23,3 +23,12 @@
 <h3>The search bar:</h3>
 - Twitter (through tweepy API)
 - New York Times (through NYT API)
+
+<h2>Features</h2>
+<h3>Landing Page<h3>
+<p>This is the face of Callidate. The landing page is meant to give the quick facts about the political race. There is a portfolio of the presidential candidates, where you can click on their image and see basic information about their policies/beliefs and how they're doing in debates. Below this is a timeline of upcoming debates, who will be moderating them, and where they will air.</p>
+<h3>User Forum</h3>
+<p>This is a live chat where users can discuss their opinions on the debate, how they feel about controversial policies, and share their general thoughts about the presidential race.</p>
+<h3>Blog</h3>
+<p>Here is where users can write longer posts to share their thoughts. All users can look at all blog posts, but, in order to create a post, you must create an acocunt and sign in. Users with accounts can then either create posts or edit their previous posts.</p>
+<h3>Search</h3>
