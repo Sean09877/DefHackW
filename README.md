@@ -15,18 +15,18 @@
 <br>
 
 <h2>What we used</h2>
-<strong>The site itself:</strong>
+<p><strong>The site itself:</strong></p>
 - Flask
 - HTML
 - CSS
-<strong>The user forum:</strong>
+<p><strong>The user forum:</strong></p>
 - Firebase database
 - JavaScript
-<strong>The blog:</strong>
+<p><strong>The blog:</strong></p>
 - SQLite
 - Python
 - Jinja
-<strong>The search bar:</strong>
+<p><strong>The search bar:</strong></p>
 - Twitter (through tweepy API)
 - New York Times (through NYT API)
 
