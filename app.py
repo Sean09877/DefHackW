@@ -5,15 +5,15 @@ import twitter, nyt, db_methods
 app = Flask(__name__)
 
 @app.route("/")
-@app.route("/index")
+@app.route("/home")
 def index():
     return render_template("index.html")
 
-@app.route("/forum")
+@app.route("/livechat")
 def forum():
     return render_template("forum.html")
 
-@app.route("/blog")
+@app.route("/forum")
 def blog():
     blogs = db_methods.getPosts()
     if session.has_key("loggedIn") and session["loggedIn"]:
